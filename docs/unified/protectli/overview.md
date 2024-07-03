@@ -3,20 +3,20 @@
 Select Model:
 
 === "FW6"
-    - [Releases](
+    * [Releases](
         ../../variants/
         protectli_fw6/releases.md) - list of all releases
-    - [Building manual](
+    * [Building manual](
         ../../variants/protectli_fw6/building-manual.md) - how
         to build Dasharo for Protectli FW6
-    - [Installation manual](
+    * [Installation manual](
         ../../variants/protectli_fw6/installation-\manual.md) -
         how to install Dasharo for Protectli FW6
-    - [Hardware configuration matrix](
+    * [Hardware configuration matrix](
         ../../variants/protectli_fw6/hardware-matrix.md) -
         definition of hardware
     configuration used during validation
-    - [Test matrix](
+    * [Test matrix](
         ../../variants/protectli_fw6/test-matrix.md) - validation
         scope for the Protectli FW6
 
