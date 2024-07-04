@@ -43,6 +43,22 @@ then follow the steps below:
         ```
 
 === "v1000-series"
+
+    ## Intro
+
+    This document describes the procedure for compiling coreboot for Protectli
+    V1210, V1410 and V1610.
+
+    ## Requirements
+
+    - Docker
+        + follow [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+        + follow [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
+    - Git
+
+    ## Build Dasharo BIOS firmware
+
+>>>>>>> 24c686a8409c (protectli/building_manual.md: Fix whitespace)
     > This build procedure produces full firmware binary including blobs such as
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
     > a private repository.

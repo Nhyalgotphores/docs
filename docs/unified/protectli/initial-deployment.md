@@ -21,17 +21,11 @@ flashrom -p internal -r dump.rom
 
 === "fw6"
 
-    ## Flashing Dasharo
-
-    ```bash
-    flashrom -p internal -w [path] --ifd -i bios
-    ```
-
     To flash Dasharo on the platform, execute the following command - replace `[path]`
     with the path to the Dasharo image you want to flash, e.g. `protectli_fw6_DF_v1.0.14.rom`.
 
     ```bash
-    sudo flashrom -p internal -w protectli_fw6_DF_v1.0.14.rom --ifd -i bios
+    sudo flashrom -p internal -w [path] --ifd -i bios
     ```
 
     After successful operation reboot the platform.
@@ -70,7 +64,7 @@ flashrom -p internal -r dump.rom
         located near memory slots. Wait about half a minute (unshort the pins).
     4. Connect the power supply back.
     5. The platform should power on normally now. You can connect the battery
-    6. back if it was disconnected.
+        back if it was disconnected.
 
 === "v66xx"
 
