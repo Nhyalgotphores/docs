@@ -43,25 +43,25 @@ then follow the steps below:
         ```
 
 === "v1000-series"
-
     > This build procedure produces full firmware binary including blobs such as
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
     > a private repository.
 
-    2. Checkout the desired version, e.g. `v0.9.2`:
+
+    1. Checkout the desired version, e.g. `v0.9.2`:
 
         ```bash
         cd coreboot
         git checkout protectli_vault_jsl_v0.9.2
         ```
 
-    3. Checkout submodules:
+    2. Checkout submodules:
 
         ```bash
         git submodule update --init --checkout
         ```
 
-    4. Obtain the Protectli blobs package (only for versions v0.9.0 and v0.9.1):
+    3. Obtain the Protectli blobs package (only for versions v0.9.0 and v0.9.1):
 
         > Replace `<PROTECTLI_BLOBS_REPO>` with a a proper path to the repository
         > in a form of: `git@repo-path.git`. You should checkout to the same tag as
@@ -75,14 +75,14 @@ then follow the steps below:
         cd -
         ```
 
-    5. Build the firmware:
+    4. Build the firmware:
 
         + for V1210
 
             ```bash
             ./build.sh V1210
             ```
-        + for V1210
+        + for V1211
 
             ```bash
             ./build.sh V1211
@@ -105,8 +105,6 @@ then follow the steps below:
     respectvely.
 
 === "vp46xx"
-
-    > This build procedure produces full firmware binary including blobs such as
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
     > a private repository.
 
@@ -179,20 +177,20 @@ then follow the steps below:
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
     > a private repository.
 
-    2. Checkout the desired version, e.g. `v0.9.0`:
+    1. Checkout the desired version, e.g. `v0.9.0`:
 
         ```bash
         cd coreboot
         git checkout protectli_vault_adl_v0.9.0
         ```
 
-    3. Checkout submodules:
+    2. Checkout submodules:
 
         ```bash
         git submodule update --init --checkout
         ```
 
-    4. Build the firmware:
+    3. Build the firmware:
 
         ```bash
         ./build.sh vp66xx
@@ -207,20 +205,20 @@ then follow the steps below:
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
     > a private repository.
 
-    2. Checkout the desired version, e.g. `v1.0.15`:
+    1. Checkout the desired version, e.g. `v1.0.15`:
 
         ```bash
         cd coreboot
         git checkout protectli_vault_glk_v1.0.15
         ```
 
-    3. Checkout submodules:
+    2. Checkout submodules:
 
         ```bash
         git submodule update --init --checkout
         ```
 
-    4. Obtain the Protectli blobs package (only for v1.0.15 or older):
+    3. Obtain the Protectli blobs package (only for v1.0.15 or older):
 
         > Replace `<PROTECTLI_BLOBS_REPO>` with a a proper path to the repository
         > in a form of: `git@repo-path.git`. You should checkout to the same tag as
@@ -235,7 +233,7 @@ then follow the steps below:
         ln -s ../blobs/mainboard/protectli/vault_glk/GeminilakeFspBinPkg/ 3rdparty/fsp/GeminilakeFspBinPkg
         ```
 
-    5. Build the firmware:
+    4. Build the firmware:
 
         ```bash
         ./build.sh vp2410
@@ -250,20 +248,20 @@ then follow the steps below:
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
     > a private repository.
 
-    2. Checkout the desired version, e.g. `v1.1.0`:
+    1. Checkout the desired version, e.g. `v1.1.0`:
 
         ```bash
         cd coreboot
         git checkout protectli_vault_ehl_v1.1.0
         ```
 
-    3. Checkout submodules:
+    2. Checkout submodules:
 
         ```bash
         git submodule update --init --checkout
         ```
 
-    4. Obtain the Protectli blobs package (only v1.1.0 or older):
+    3. Obtain the Protectli blobs package (only v1.1.0 or older):
 
         > Replace `<PROTECTLI_BLOBS_REPO>` with a a proper path to the repository
         > in a form of: `git@repo-path.git`. You should checkout to the same tag as
@@ -277,7 +275,7 @@ then follow the steps below:
         cd -
         ```
 
-    5. Build the firmware:
+    4. Build the firmware:
 
         ```bash
         ./build.sh vp2420
