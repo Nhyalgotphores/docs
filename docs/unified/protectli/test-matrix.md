@@ -47,9 +47,12 @@ subjected from before the release of the new binary.
 
 === "v1x1x"
 
+<<<<<<< HEAD
     The test scope is the same
     for all platforms of the V1210/V1410/V1610 family.
 
+=======
+>>>>>>> ea86cd2e55f7 (unified/protectli/recovery.md: Join intro)
     ## Module: Dasharo compatibility
 
     | No.  | Supported test suite                  | Test suite ID | Supported test cases                 |
@@ -133,9 +136,6 @@ subjected from before the release of the new binary.
     [BPV]: ../../unified-test-documentation/dasharo-performance/415-pfsense-vga-booting-performance-test.md
 
 === "vp46xx"
-
-    The test scope is the same
-    for all platforms of the VP46XX family.
 
     ## Module: Dasharo compatibility
 
@@ -253,9 +253,6 @@ subjected from before the release of the new binary.
     [BPV]: ../../unified-test-documentation/dasharo-performance/415-pfsense-vga-booting-performance-test.md
 
 === "vp66xx"
-
-    The test scope is the same
-    for all platforms of the VP66XX family.
 
     ## Module: Dasharo compatibility
 
