@@ -17,7 +17,7 @@ devices.
 
 To build Dasharo firmware image, first clone the coreboot repository:
     ```bash
-    git clone https://github.com/Dasharo/coreboot.git -b protectli_vault_kbl/release
+    git clone https://github.com/Dasharo/coreboot.git
     ```
 then follow the steps below:
 
@@ -43,26 +43,6 @@ then follow the steps below:
         ```
 
 === "v1000-series"
-
-    ## Intro
-
-    This document describes the procedure for compiling coreboot for Protectli
-    V1210, V1410 and V1610.
-
-    ## Requirements
-
-    - Docker
-        + follow [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
-        + follow [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
-    - Git
-
-    ## Build Dasharo BIOS firmware
-
->>>>>>> 24c686a8409c (protectli/building_manual.md: Fix whitespace)
-    > This build procedure produces full firmware binary including blobs such as
-    > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
-    > a private repository.
-
 
     1. Checkout the desired version, e.g. `v0.9.2`:
 
@@ -121,8 +101,6 @@ then follow the steps below:
     respectvely.
 
 === "vp46xx"
-    > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
-    > a private repository.
 
     Since version v1.0.18 VP4630 and VP4650 use different configuration file than
     VP4670. Versions v1.0.17 and older do not support VP4650 and VP4670 at all.
@@ -189,10 +167,6 @@ then follow the steps below:
 
 === "vp66xx"
 
-    > This build procedure produces full firmware binary including blobs such as
-    > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
-    > a private repository.
-
     1. Checkout the desired version, e.g. `v0.9.0`:
 
         ```bash
@@ -216,10 +190,6 @@ then follow the steps below:
     `protectli_vp66xx.rom`.
 
 === "vp2410"
-
-    > This build procedure produces full firmware binary including blobs such as
-    > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
-    > a private repository.
 
     1. Checkout the desired version, e.g. `v1.0.15`:
 
@@ -260,9 +230,6 @@ then follow the steps below:
 
 === "vp2420"
 
-    > This build procedure produces full firmware binary including blobs such as
-    > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
-    > a private repository.
 
     1. Checkout the desired version, e.g. `v1.1.0`:
 
