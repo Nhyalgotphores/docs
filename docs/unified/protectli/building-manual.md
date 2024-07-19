@@ -2,7 +2,7 @@
 
 ## Intro
 
-This document describes the procedure for building coreboot for protectli
+This document describes the procedure for building coreboot for all Protectli
 devices.
 
 ## Requirements
@@ -13,22 +13,25 @@ devices.
 - Git
     + `sudo apt-get install git`
 
+## Building
+
+To build Dasharo firmware image, follow the steps below:
+1. Clone the coreboot repository:
+    ```bash
+    git clone https://github.com/Dasharo/coreboot.git -b protectli_vault_kbl/release
+
 === "fw6"
 
-    ## Building
-
-    To build Dasharo firmware image, follow the steps below:
-
-    1. Clone the coreboot repository:
-
+    2. Checkout to the device's branch:
         ```bash
-        git clone https://github.com/Dasharo/coreboot.git -b protectli_vault_kbl/release
+        cd coreboot
+        git checkout protectli_vault_kbl/release
         ```
 
     To build a specific version replace `protectli_vault_kbl/release` to
     `protectli_vault_kbl_v1.0.x` where `x` is the version number.
 
-    2. Start build process (note it requires certain blobs to proceed):
+    3. Start build process (note it requires certain blobs to proceed):
 
         ```bash
         cd coreboot
@@ -40,17 +43,9 @@ devices.
 
 === "v1x1x"
 
-    ## Build Dasharo BIOS firmware
-
     > This build procedure produces full firmware binary including blobs such as
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
     > a private repository.
-
-    1. Clone the coreboot repository:
-
-        ```bash
-        git clone https://github.com/Dasharo/coreboot
-        ```
 
     2. Checkout the desired version, e.g. `v0.9.2`:
 
@@ -105,8 +100,6 @@ devices.
 
 === "vp46xx"
 
-    ## Build Dasharo BIOS firmware
-
     > This build procedure produces full firmware binary including blobs such as
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
     > a private repository.
@@ -115,12 +108,6 @@ devices.
     VP4670. Versions v1.0.17 and older do not support VP4650 and VP4670 at all.
 
     Versions v1.1.1 and newer support all variants with a single binary.
-
-    1. Clone the coreboot repository:
-
-        ```bash
-        git clone https://github.com/Dasharo/coreboot
-        ```
 
     2. Checkout the desired version, e.g. `v1.1.0`:
 
@@ -182,17 +169,9 @@ devices.
 
 === "vp66xx"
 
-    ## Build Dasharo BIOS firmware
-
     > This build procedure produces full firmware binary including blobs such as
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
     > a private repository.
-
-    1. Clone the coreboot repository:
-
-        ```bash
-        git clone https://github.com/Dasharo/coreboot
-        ```
 
     2. Checkout the desired version, e.g. `v0.9.0`:
 
@@ -218,18 +197,9 @@ devices.
 
 === "vp2410"
 
-
-    ## Build Dasharo BIOS firmware
-
     > This build procedure produces full firmware binary including blobs such as
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
     > a private repository.
-
-    1. Clone the coreboot repository:
-
-        ```bash
-        git clone https://github.com/Dasharo/coreboot
-        ```
 
     2. Checkout the desired version, e.g. `v1.0.15`:
 
@@ -270,18 +240,9 @@ devices.
 
 === "vp2420"
 
-
-    ## Build Dasharo BIOS firmware
-
     > This build procedure produces full firmware binary including blobs such as
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via
     > a private repository.
-
-    1. Clone the coreboot repository:
-
-        ```bash
-        git clone https://github.com/Dasharo/coreboot
-        ```
 
     2. Checkout the desired version, e.g. `v1.1.0`:
 
