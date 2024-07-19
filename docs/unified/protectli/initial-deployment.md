@@ -21,15 +21,6 @@ flashrom -p internal -r dump.rom
 
 === "fw6"
 
-    ## Reading flash contents
-
-    Always prepare a backup of the current firmware image. To read from the flash
-    and save them to a file (`dump.rom`), execute the following command:
-
-    ```bash
-    sudo flashrom -p internal -r dump.rom
-    ```
-
     ## Flashing Dasharo
 
     ```bash

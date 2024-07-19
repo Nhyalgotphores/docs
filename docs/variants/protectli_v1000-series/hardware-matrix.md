@@ -3,7 +3,7 @@
 ## Introduction
 
 This document describes the hardware configuration used for validation of the
-coreboot port on the Protectli V1210/V1410/V1610 firewall.
+coreboot port on the Protectli V1000 series firewall.
 
 ## Protectli V1210
 

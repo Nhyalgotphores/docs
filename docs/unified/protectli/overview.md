@@ -39,7 +39,7 @@ Select Model:
       - groups information about all releases.
     * [Building manual](
         ../../variants/protectli_v1000-series/building-manual.md)
-        - describes how to build Dasharo for Protectli V1210/V1410/V1610.
+        - describes how to build Dasharo for Protectli V1000 series.
     * [Initial deployment](
         ../../variants/protectli_v1000-series/initial-deployment.md)
         - describes initial Dasharo deployment methods

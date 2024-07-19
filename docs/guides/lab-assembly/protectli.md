@@ -3,7 +3,11 @@
 ## Introduction
 
 This document describes platform-specific details for assembling Protectli
+<<<<<<< HEAD
 VP2410, VP2420, VP4630/VP4650/VP4670, V1210/V1410/V1610, VP66xx testing stands.
+=======
+VP2410, VP2420, VP4630/VP4650/VP4670, V1000 series testing stands.
+>>>>>>> b3055851acb1 (docs: Further rename V1210 etc to V1000 series)
 Use this document as reference while going through
 [Generic Testing Stand Setup](../../unified-test-documentation/generic-testing-stand-setup.md)
 
@@ -45,9 +49,9 @@ connect ports 3 and 4 together with an additional RJ45 cable.
         - VP4630: 12V 5A
         - VP4650/VP4670: 12V 7.5A
 
-=== "V1X10"
+=== "V1000 series"
 
-    * V1X10 platform
+    * V1000 series platform
     * Power supply for the platform: 12V 4A
     * USB-C to USB-A male-male cable for console
 
@@ -79,7 +83,11 @@ connect ports 3 and 4 together with an additional RJ45 cable.
     Flash chip is socketed. One has to desolder the socket, solder the flash
     chip in place of the socket and connect the Pomona SOIC8 clip.
 
+<<<<<<< HEAD
 === "V1X10"
+=======
+=== "V1000 series"
+>>>>>>> b3055851acb1 (docs: Further rename V1210 etc to V1000 series)
 
     Connect the RTE SPI header to the platform using the 2.54mm female-female
     wires as described in the table:
@@ -147,7 +155,11 @@ connect ports 3 and 4 together with an additional RJ45 cable.
 
     Resetting CMOS is required for proper external flashing.
 
+<<<<<<< HEAD
 === "V1X10"
+=======
+=== "V1000 series"
+>>>>>>> b3055851acb1 (docs: Further rename V1210 etc to V1000 series)
 
     Connect the RTE J11 header to the platform CLR_CMOS1 header using 2.54mm to 2mm
     wires as described in the table:
@@ -237,7 +249,11 @@ The method of setting and using serial connection is described in the
         osfv_cli sonoff --sonoff_ip <sonoff_ip_address> off
         ```
 
+<<<<<<< HEAD
 === "V1X10"
+=======
+=== "V1000 series"
+>>>>>>> b3055851acb1 (docs: Further rename V1210 etc to V1000 series)
 
     Power supply controlling is performed with the relay module on RTE
     connected to one of RTE GPIOs. Power operation should be performed using
