@@ -3,6 +3,7 @@
 Select Model:
 
 === "FW6"
+
     * [Releases](
         ../../variants/
         protectli_fw6/releases.md) - list of all releases
@@ -15,7 +16,7 @@ Select Model:
     * [Hardware configuration matrix](
         ../../variants/protectli_fw6/hardware-matrix.md) -
         definition of hardware
-    configuration used during validation
+        configuration used during validation
     * [Test matrix](
         ../../variants/protectli_fw6/test-matrix.md) - validation
         scope for the Protectli FW6

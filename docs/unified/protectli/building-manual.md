@@ -231,7 +231,6 @@ then follow the steps below:
 
 === "vp2420"
 
-
     1. Checkout the desired version, e.g. `v1.1.0`:
 
         ```bash
