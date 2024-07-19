@@ -32,7 +32,7 @@ then follow the steps below:
     To build a specific version replace `protectli_vault_kbl/release` to
     `protectli_vault_kbl_v1.0.x` where `x` is the version number.
 
-    3. Start build process (note it requires certain blobs to proceed):
+    2. Start build process (note it requires certain blobs to proceed):
 
         ```bash
         cd coreboot
