@@ -78,6 +78,7 @@ then follow the steps below:
             ```bash
             ./build.sh V1210
             ```
+
         + for V1211
 
             ```bash
