@@ -19,6 +19,7 @@ To build Dasharo firmware image, follow the steps below:
 1. Clone the coreboot repository:
     ```bash
     git clone https://github.com/Dasharo/coreboot.git -b protectli_vault_kbl/release
+    ```
 
 === "fw6"
 
@@ -81,6 +82,11 @@ To build Dasharo firmware image, follow the steps below:
             ```bash
             ./build.sh V1210
             ```
+        + for V1210
+
+            ```bash
+            ./build.sh V1211
+            ```
 
         + for V1410
 
@@ -109,20 +115,20 @@ To build Dasharo firmware image, follow the steps below:
 
     Versions v1.1.1 and newer support all variants with a single binary.
 
-    2. Checkout the desired version, e.g. `v1.1.0`:
+    1. Checkout the desired version, e.g. `v1.1.0`:
 
         ```bash
         cd coreboot
         git checkout protectli_vault_cml_v1.1.0
         ```
 
-    3. Checkout submodules:
+    2. Checkout submodules:
 
         ```bash
         git submodule update --init --checkout
         ```
 
-    4. Obtain the Protectli blobs package (only for version v1.1.0 and older):
+    3. Obtain the Protectli blobs package (only for version v1.1.0 and older):
 
         > Replace `<PROTECTLI_BLOBS_REPO>` with a a proper path to the repository
         > in a form of: `git@repo-path.git`. You should checkout to the same tag as
@@ -136,7 +142,7 @@ To build Dasharo firmware image, follow the steps below:
         cd -
         ```
 
-    5. Build the firmware:
+    4. Build the firmware:
 
         === "v1.1.1 or newer"
 
