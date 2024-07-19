@@ -3,22 +3,27 @@
 Select Model:
 
 === "FW6"
-    *[Releases](../../variants/protectli_fw6/releases.md) - list of all releases
-    * [Building manual](../../variants/protectli_fw6/building-manual.md) - how
+    - [Releases](
+        ../../variants/
+        protectli_fw6/releases.md) - list of all releases
+    - [Building manual](
+        ../../variants/protectli_fw6/building-manual.md) - how
         to build Dasharo for Protectli FW6
-    *[Installation manual](../../variants/protectli_fw6/installation-manual.md) -
-        how to install Dasharo
-    for Protectli FW6
-    * [Hardware configuration matrix](../../variants/protectli_fw6/hardware-matrix.md) -
+    - [Installation manual](
+        ../../variants/protectli_fw6/installation-\manual.md) -
+        how to install Dasharo for Protectli FW6
+    - [Hardware configuration matrix](
+        ../../variants/protectli_fw6/hardware-matrix.md) -
         definition of hardware
     configuration used during validation
-    * [Test matrix](../../variants/protectli_fw6/test-matrix.md) - validation
+    - [Test matrix](
+        ../../variants/protectli_fw6/test-matrix.md) - validation
         scope for the Protectli FW6
 
-=== "v1x1x"
+=== "v1000-series"
     The Vault is a small form network appliance built for use as a firewall /
     router, virtualization platform, a daily-driven personal computer, and more.
-    The V1210/V1410/V1610 feature an Intel Jasper Lake CPU, soldered down LPDDR4X
+    The V1000 series feature an Intel Jasper Lake CPU, soldered down LPDDR4X
     memory, Intel i225-V/i226-V 2.5G Ethernet ports, 4x USB-A 3.x ports, eMMC,
     PCIe NVMe storage, M.2 WIFI and WWAN slots, serial console over USB-C and
     a firmware TPM.
@@ -29,21 +34,31 @@ Select Model:
 
     ## Documentation sections
 
-    * [Releases](../../variants/protectli_v1x1x/releases.md) - groups information about all releases.
-    * [Building manual](../../variants/protectli_v1x1x/building-manual.md) - describes how to build Dasharo for
-    Protectli V1210/V1410/V1610.
-    * [Initial deployment](../../variants/protectli_v1x1x/initial-deployment.md) - describes initial Dasharo
-    deployment methods (i. e. flashing new firmware) for Protectli
-    V1210/V1410/V1610.
-    * [Firmware update](../../variants/protectli_v1x1x/firmware-update.md) - explains supported Dasharo
-    open-source firmware update methods.
-    * [Recovery](../../variants/protectli_v1x1x/recovery.md) - gathers information on how to recover the platform
-    from potential failure.
-    * [Hardware configuration matrix](../../variants/protectli_v1x1x/hardware-matrix.md) - describes the
-    platform's hardware configuration used during the Dasharo firmware
-    validation procedure.
-    * [Test matrix](../../variants/protectli_v1x1x/test-matrix.md) - describes validation scope used during
-    Dasharo firmware validation procedure.
+    * [Releases](
+        ../../variants/protectli_v1000-series/releases.md)
+      - groups information about all releases.
+    * [Building manual](
+        ../../variants/protectli_v1000-series/building-manual.md)
+        - describes how to build Dasharo for Protectli V1210/V1410/V1610.
+    * [Initial deployment](
+        ../../variants/protectli_v1000-series/initial-deployment.md)
+        - describes initial Dasharo deployment methods
+        (i. e. flashing new firmware) for Protectli V1000 series.
+    * [Firmware update](
+        ../../variants/protectli_v1000-series/firmware-update.md)
+        - explains supported Dasharo open-source firmware update methods.
+    * [Recovery](
+        ../../variants/protectli_v1000-series/recovery.md)
+        - gathers information on how to recover the platform from
+        potential failure.
+    * [Hardware configuration matrix](
+        ../../variants/protectli_v1000-series/hardware-matrix.md)
+        - describes the platform's hardware configuration used during the
+        Dasharo firmware validation procedure.
+    * [Test matrix](
+        ../../variants/protectli_v1000-series/test-matrix.md)
+        - describes validation scope used during
+        Dasharo firmware validation procedure.
 
 === "vp46xx"
     The Vault is a small form network appliance built for use as a firewall /
@@ -60,7 +75,9 @@ Select Model:
     * VP4630 - Intel Core i3-10110U
     * VP4650 - Intel Core i5-10210U
     * VP4670 - Intel Core i7-10810U (both v1 and v2 versions, see the
-    [Intel FSP repo for details](https://github.com/intel/FSP/tree/master/CometLakeFspBinPkg#differentiating-cometlake1-and-cometlake2)))
+    [Intel FSP repo for details](
+        https://github.com/intel/FSP/tree/master/
+        CometLakeFspBinPkg#differentiating-cometlake1-and-cometlake2))
 
     For more information please refer to the references below.
 
@@ -75,7 +92,8 @@ Select Model:
     * [Building manual](../../variants/protectli_vp46xx/building-manual.md) -
         describes how to build Dasharo for
         NovaCustom NV4x.
-    * [Initial deployment](../../variants/protectli_vp46xx/initial-deployment.md) -
+    * [Initial deployment](
+        ../../variants/protectli_vp46xx/initial-deployment.md) -
         describes initial Dasharo
         deployment methods (i. e. flashing new firmware) for Protectli VP46xx.
     * [Firmware update](../../variants/protectli_vp46xx/firmware-update.md) -
@@ -84,7 +102,8 @@ Select Model:
     * [Recovery](../../variants/protectli_vp46xx/recovery.md) - gathers
         information on how to recover the platform
         from potential failure.
-    * [Hardware configuration matrix](../../variants/protectli_vp46xx/hardware-matrix.md) -
+    * [Hardware configuration matrix](
+        ../../variants/protectli_vp46xx/hardware-matrix.md) -
         describes the
         platform's hardware configuration used during the Dasharo firmware
         validation procedure.
@@ -128,12 +147,14 @@ Select Model:
         information about all releases.
     * [Building manual](../../variants/protectli_vp2410/building-manual.md) -
         describes how to build Dasharo for Protecli 2410.
-    * [Initial deployment](../../variants/protectli_vp2410/initial-deployment.md) -
+    * [Initial deployment](
+        ../../variants/protectli_vp2410/initial-deployment.md) -
         describes initial Dasharo deployment methods (i. e. flashing new
         firmware) for Protectli VP2410.
     * [Recovery](../../variants/protectli_vp2410/recovery.md) - gathers
         information on how to recover the platform from potential failure.
-    * [Hardware configuration matrix](../../variants/protectli_vp2410/hardware-matrix.md) -
+    * [Hardware configuration matrix](
+        ../../variants/protectli_vp2410/hardware-matrix.md) -
         describes the platform's hardware configuration used during the Dasharo
         firmware validation procedure.
     * [Test matrix](../../variants/protectli_vp2410/test-matrix.md) - describes
@@ -176,18 +197,19 @@ Select Model:
         information about all releases.
     * [Building manual](../../variants/protectli_vp2420/building-manual.md) -
         describes how to build Dasharo for Protecli 2420.
-    * [Initial deployment](../../variants/protectli_vp2420/initial-deployment.md) -
+    * [Initial deployment](
+        ../../variants/protectli_vp2420/initial-deployment.md) -
         describes initial Dasharo deployment methods (i. e. flashing new
         firmware) for Protectli VP2420.
     * [Recovery](../../variants/protectli_vp2420/recovery.md) - gathers
         information on how to recover the platform from potential failure.
-    * [Hardware configuration matrix](../../variants/protectli_vp2420/hardware-matrix.md) -
+    * [Hardware configuration matrix](
+        ../../variants/protectli_vp2420/hardware-matrix.md) -
         describes the platform's hardware configuration used during the Dasharo
         firmware validation procedure.
     * [Test matrix](../../variants/protectli_vp2420/test-matrix.md) - describes
         validation scope used during Dasharo firmware validation procedure.
 
-<!---
 === "vp66xx"
     The Vault is a small form network appliance built for use as a firewall /
     router, virtualization platform, a daily-driven personal computer, and more.
@@ -207,17 +229,18 @@ Select Model:
         information about all releases.
     * [Building manual](../../variants/protectli_vp66xx/building-manual.md) -
         describes how to build Dasharo for Protectli VP6630/VP6650/VP6670.
-    * [Initial deployment](../../variants/protectli_vp66xx/initial-deployment.md) -
+    * [Initial deployment](
+        ../../variants/protectli_vp66xx/initial-deployment.md) -
         describes initial Dasharo deployment methods (i. e. flashing new
         firmware) for Protectli VP6630/VP6650/VP6670.
     * [Firmware update](../../variants/protectli_vp66xx/firmware-update.md) -
         explains supported Dasharo open-source firmware update methods.
     * [Recovery](../../variants/protectli_vp66xx/recovery.md) - gathers
         information on how to recover the platform from potential failure.
-    * [Hardware configuration matrix](../../variants/protectli_vp66xx/hardware-matrix.md) -
+    * [Hardware configuration matrix](
+        ../../variants/protectli_vp66xx/hardware-matrix.md) -
         describes the platform's hardware configuration used during the Dasharo
         firmwarevalidation procedure.
     * [Test matrix](../../variants/protectli_vp66xx/test-matrix.md) - describes
         validation scope used during Dasharo firmware validation procedure.
     * [Post-installation setup](../../variants/protectli_vp66xx/post-install.md)
--->

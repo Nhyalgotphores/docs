@@ -15,15 +15,15 @@ devices.
 
 ## Building
 
-To build Dasharo firmware image, follow the steps below:
-1. Clone the coreboot repository:
+To build Dasharo firmware image, first clone the coreboot repository:
     ```bash
     git clone https://github.com/Dasharo/coreboot.git -b protectli_vault_kbl/release
     ```
+then follow the steps below:
 
 === "fw6"
 
-    2. Checkout to the device's branch:
+    1. Checkout to the device's branch:
         ```bash
         cd coreboot
         git checkout protectli_vault_kbl/release
@@ -32,7 +32,7 @@ To build Dasharo firmware image, follow the steps below:
     To build a specific version replace `protectli_vault_kbl/release` to
     `protectli_vault_kbl_v1.0.x` where `x` is the version number.
 
-    3. Start build process (note it requires certain blobs to proceed):
+    2. Start build process (note it requires certain blobs to proceed):
 
         ```bash
         cd coreboot
@@ -42,7 +42,7 @@ To build Dasharo firmware image, follow the steps below:
         ./build.sh fw6
         ```
 
-=== "v1x1x"
+=== "v1000-series"
 
     > This build procedure produces full firmware binary including blobs such as
     > FSP, and ME. Currently, access to them is restricted to the OEM (Protectli) via

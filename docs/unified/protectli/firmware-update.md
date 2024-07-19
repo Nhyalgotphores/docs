@@ -11,7 +11,7 @@ Dasharo firmware version.
 For simplicity of the update process, we recommend using
 [Dasharo Tools Suite](../../dasharo-tools-suite/overview.md).
 
-=== "v1x1x"
+=== "v1000-series"
 
     Before starting the update procedure be sure to disable Secure Boot:
 

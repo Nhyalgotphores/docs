@@ -45,7 +45,7 @@ subjected from before the release of the new binary.
 
     [CPT]: ../../unified-test-documentation/dasharo-performance/401-cpu-temperature.md
 
-=== "v1x1x"
+=== "v1000-series"
 
     ## Module: Dasharo compatibility
 

@@ -45,7 +45,7 @@ flashrom -p internal -r dump.rom
 
     After successful operation reboot the platform.
 
-=== "v1x1x"
+=== "v1000-series"
 
     To flash Dasharo on the platform, execute the following command - replace
     `[path]` with the path to the Dasharo image you want to flash, e.g.
