@@ -8,6 +8,7 @@ documentation.
 The update process may be different, depending on the currently installed
 Dasharo firmware version.
 
+For simplicity of the process we recommend using
 [Dasharo Tools Suite](../../dasharo-tools-suite/overview.md).
 
 Before starting the update procedure be sure to disable Dasharo BIOS Boot
