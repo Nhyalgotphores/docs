@@ -47,12 +47,6 @@ subjected from before the release of the new binary.
 
 === "v1x1x"
 
-<<<<<<< HEAD
-    The test scope is the same
-    for all platforms of the V1210/V1410/V1610 family.
-
-=======
->>>>>>> ea86cd2e55f7 (unified/protectli/recovery.md: Join intro)
     ## Module: Dasharo compatibility
 
     | No.  | Supported test suite                  | Test suite ID | Supported test cases                 |
