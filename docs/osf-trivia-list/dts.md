@@ -91,3 +91,19 @@ Please [donate](../ways-you-can-help-us.md#donate-money) using one of
 available methods and contact [3mdeb](mailto:leads@3mdeb.com) or [Dasharo
 Team](mailto:contact@dasharo.com) to let us know about your donation. Minimal
 donating to access DTS SE with one year update support is 60EUR.
+
+## How can I help support diagnose an issue I'm having quicker?
+
+Make sure to provide logs that show the failing feature. Provide information
+that will help reproduce the issue - the machine model, Dasharo/DTS version,
+etc.
+
+If you are having issues with functionalities provided by the DTS start menu,
+you can help by running it in verbose mode and providing logs. To do that,
+follow the instructions below:
+
+1. Enter DTS shell
+2. Edit `/usr/sbin/dts` - add `set -x` at the beginning of the file:
+3. Save the file and run the menu again by running `dts` in the shell.
+4. Reproduce the problem.
+5. Save the logs and send them to support.
