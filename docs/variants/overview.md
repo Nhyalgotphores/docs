@@ -33,6 +33,8 @@ open-source firmware distribution.
 
 * Following laptops are supported under Dasharo Support Package
 
+    - [NovaCustom V54 14th Gen](../unified/novacustom/overview.md)
+    - [NovaCustom V56 14th Gen](../unified/novacustomoverview.md)
     - [NovaCustom NV4x 12th Gen](../unified/novacustom/overview.md)
     - [NovaCustom NS5x/7x 12th Gen](../unified/novacustom/overview.md)
     - [NovaCustom NV4x 11th Gen](../unified/novacustom/overview.md)
