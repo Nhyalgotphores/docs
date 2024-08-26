@@ -18,10 +18,6 @@ open-source firmware distribution.
     - [Protectli VP2420](protectli_vp2420/overview.md)
     - [Protectli VP46xx](protectli_vp46xx/overview.md)
     - [Protectli VP66xx](protectli_vp66xx/overview.md)
-
-* Following network appliances are planned to be supported under Dasharo
-  Community Support:
-
     - [PC Engines](pc_engines/post-eol-fw-announcement.md)
 
 * Available at the 3mdeb online store:
@@ -50,9 +46,12 @@ open-source firmware distribution.
 
 ## Desktop
 
-* Following desktops are supported under Dasharo Community Support
+* Following desktops are supported under Dasharo Support Package
 
     - [Dell OptiPlex](dell_optiplex/overview.md)
+
+* Following desktops are supported under Dasharo Community Support
+
     - [MSI PRO Z690-A](../unified/msi/overview.md)
     - [MSI PRO Z790-P](../unified/msi/overview.md)
 
